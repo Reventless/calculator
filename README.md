@@ -1,9 +1,15 @@
-# calculator
-This programm is my first shitty try with java.
-I hope you wont womit while reading my code.
+# Calculator
 
-Ideas for the future:
+This program is my first attempt write a calculator and to learn java.
+
+### Next steps
+
+- introdrucing git flow
+- publishing a release
+- introducing a GUI
+
+
+### Ideas for the future:
 
 - Reverse Polish notation
-
 - loop around the case to calculate further
