@@ -7,8 +7,9 @@ class CalculatorMenu {
                 "\n(1) addition\n(2) subtraction\n(3) multiplication\n(4) division" +
                 "\n(0) end program");
         Operation operation;
+        var userInput = Userinput.handleinput();
 
-        switch (Userinput.handleinput()){
+        switch (userInput){
             case 1:
                 operation = (new Addition()); //Der Variablen operation wird das neu erzeugte Objekt vom Typ Addition zugewiesen
                 break;
@@ -29,7 +30,7 @@ class CalculatorMenu {
                 return;
 
             default:
-                throw new IllegalStateException("Unexpected value: " + Userinput.handleinput());
+                throw new IllegalStateException("Unexpected value: " + userInput);
         }
         System.out.println("Please input the first Number");
         double testNumberOne = Userinput.handleinput();
