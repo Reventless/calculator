@@ -7,7 +7,7 @@ class CalculatorMenu {
                 "\n(1) addition\n(2) subtraction\n(3) multiplication\n(4) division" +
                 "\n(0) end program");
         Operation operation;
-        var userInput = Userinput.handleinput();
+        Int userInput = Userinput.handleinput();
 
         switch (userInput){
             case 1:
